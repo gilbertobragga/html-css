@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando caixas</title>
+    <style>
+        body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: rgb(255, 145, 0);
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.178);
+            padding: 10px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin: 0px 20px 0px 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        main {
+            height: 700px;
+            background-color: gray;
+            margin: 10px;
+        }
+        section {
+            padding: 5px;
+        }
+        section:hover > article {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.342);
+            color: white;
+        }
+        section > article {
+            display: none;
+        }
+        footer {
+            background-color: black;
+            color: rgb(255, 145, 0);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--header=cabeçalho nav=navegação main=principal 
+    section=seção article=artigos footer=rodapé-->
+    <header>
+        <h1>Site Teste</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>Notícias
+            <article>Brasil</article>
+            <article>Estado Unidos</article>
+        </section>
+        <section>Futebol
+            <article>Série A</article>
+            <article>Série B</article>
+        </section>
+        <section>Carros
+                <article>Volkswagen</article>
+                <article>Honda</article>      
+        </section>
+    </main>
+    <footer>
+        <p>Uai Developer</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, #525759, #6f7372, #A4A6A1);
+}
+
+main { /* main é como se fosse a folha */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; /* borda arredondada */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.349); /* sombra */
+    padding: 10px; /* espaço entre o texto e o limite da folha/pagina */
+    margin: auto; /* centralizar automatico */
+    width: 600px; /* tamanho da folha/conteudo */
+}
+
+h1 {
+    color: rgb(56, 55, 55);
+    text-align: center; /* alinhar texto no centro */
+    text-shadow: 1px 1px 2px rgba(90, 90, 90, 0.849); /* sombra texto */
+}
+
+h2 {
+    color: rgba(56, 55, 55, 0.822);
+}
+
+p {
+    text-align: justify; /* alinhar texto com a folha/pagina */
+}

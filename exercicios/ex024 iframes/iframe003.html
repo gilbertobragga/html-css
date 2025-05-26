@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        iframe {
+            width: 800px;
+            height: 500px;
+            border: 2px dashed black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escolha uma opção</h1>
+    <h2><a href="paginas/pag001.html" target="abrir">Página1 </a><a href="paginas/pag002.html" target="abrir">Página2 </a><a href="paginas/pag003.html" target="abrir">Página3</a></h2>
+    <p>
+        <iframe name="abrir" srcdoc="<h1>Escolha uma das opções acima</h1> <img src='imagens/bugdroid.png'>"></iframe>
+    </p>
+
+    <!--referrerpolicy="no-referrer" nao permite capturar dados 
+     sandbox="sandbox" nao permite nada. 
+     os dois são usados para bloquear coisas maliciosas-->
+</body>
+</html>

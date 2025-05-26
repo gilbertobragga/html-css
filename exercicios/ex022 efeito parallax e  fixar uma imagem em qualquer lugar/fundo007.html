@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style> /* centralizar algo horizontal usa "margin: auto" 
+ mas pra centralizar algo vertical, usa a parte do conteudo*/
+        #container {
+            background-color: blueviolet;
+            height: 500px;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+        }
+
+        #conteudo {
+            position: absolute;
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            /* toda imagem começa o posicionamento pela esquerda. */
+            top: 50%; /* aqui coloca o conteudo no meio do container */
+            left: 50%; /* aqui coloca o conteudo no meio da esquerda */
+
+            transform: translate(-50%, -50%);
+            /* aqui coloca o meio do meio no centro da imagem */
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
