@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexibe Box</title>
+    <style>
+        .conteiner {
+            background-color: salmon;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .items {
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .ouAssim1 {  /* ou assim numa folha de css */
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="items" id="ouAssim1" style="order: 2;">A</div> <!--assim é usado em caso especifico-->
+        <div class="items">B</div>
+        <div class="items">C</div>
+        <div class="items">D</div>
+        <div class="items">E</div>
+        <div class="items">F</div>
+        <div class="items">G</div>
+    </div>
+</body>
+</html>
