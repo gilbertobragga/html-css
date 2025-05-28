@@ -1,0 +1,15 @@
+header {
+    flex-flow: column nowrap;
+}
+
+header nav {
+    flex-flow: column nowrap;
+}
+
+header h1 {
+    flex: 0 0 40px;
+}
+
+nav a {
+    width: 90vw;
+}
